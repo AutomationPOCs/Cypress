@@ -4,10 +4,10 @@ describe('Launch site url', () => {
 
     beforeEach(() => {
         cy.visit('https://store.dandelionchocolate.com/')
-        cy.get(loginPage.logo).eq(0).click()
     })
 
     it('Verify home page elements', () => {
+        cy.get(loginPage.logo).eq(0).click()
         cy.elementShouldBeVisible(loginPage.logo)
     })
 })
