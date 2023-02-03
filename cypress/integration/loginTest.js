@@ -3,7 +3,7 @@ import {loginPage} from '../support/Base/PageObjects/loginObjects.js'
 describe('Launch site url', () => {
 
     beforeEach(() => {
-        cy.visit('https://store.dandelionchocolate.com/')
+        cy.visit(' ')
     })
 
     it('Verify home page elements', () => {

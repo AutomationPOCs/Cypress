@@ -1,5 +1,5 @@
 {
-    "baseUrl": "https://store.dandelionchocolate.com/",
+    "baseUrl": "https://www.google.com/",
     "reporter": "mochawesome",
     "reporterOptions": {
       "reportDir": "cypress/results",
