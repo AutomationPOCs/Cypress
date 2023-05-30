@@ -1,0 +1,14 @@
+{
+  "name": "cypress-project",
+  "version": "1.0.0",
+  "scripts": {
+    "pretest": "npm install",
+    "test": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^12.13.0",
+    "cypress-xpath": "^2.0.1",
+    "faker": "^6.6.6",
+    "mochawesome": "^7.1.3"
+  }
+}

@@ -1,0 +1,28 @@
+# Cypress binary cache
+.cypress/
+
+# Videos and screenshots captured during test runs
+/cypress/videos/
+/cypress/screenshots/
+
+# Test results
+/mochawesome-report/
+/mochawesome.html
+/cypress/report/
+
+# Node.js dependencies
+/node_modules/
+
+# Environment variables
+.cypress.env.json
+
+# Cypress cache and logs
+.cypress-cache/
+.cypress-logs/
+
+# Cypress binary installation folder
+.binary/
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
